@@ -1,3 +1,8 @@
+<!-- Exercício 3: Tabela de Produtos (FOREACH)
+• Crie um array associativo com dados fictícios sobre produtos (Nome,
+Preço, Categoria).
+• Mostre os dados em uma tabela estilizada com cabeçalhos e uma cor
+diferente para cada categoria. -->
 <?php
 $produtos = [
     [
@@ -23,9 +28,9 @@ $produtos = [
 ];
 
 $cores_categorias = [
-    "Eletrônico" => "#4400ff",
-    "Instrumento" => "#ff0000",
-    "Limpeza" => "#73ff00"
+    "Eletrônico" => "#8f67ff",
+    "Instrumento" => "#f06e6e",
+    "Limpeza" => "#a6ff5d"
 ];
 ?>
 <!DOCTYPE html>

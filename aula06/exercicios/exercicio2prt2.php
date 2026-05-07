@@ -2,7 +2,6 @@
     $linha = $_POST["linha"];
     $coluna = $_POST["coluna"];
     if ($linha <= 0 || $coluna <= 0){
-        header('Location: erro.php');
         exit;
     }
 ?>
@@ -13,7 +12,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício 2 - Tabela dinâmica</title>
-    <link rel="stylesheet" href="style.css">
+        <style>
+        table, tr, th, td{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+        }
+    </style>
 </head>
 <body>
     <h1>Exercício 02 - Tabela dinâmica</h1>
