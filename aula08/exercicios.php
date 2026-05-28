@@ -52,7 +52,8 @@ echo"<hr>";
 echo "5.Crie um array com os dias da semana e exiba os dias úteis. <br>";
 $dias = ["domingo","segunda","terça","quarta","quinta","sexta","sábado"];
 foreach ($dias as $chave) {
-    if ($chave == "domingo") || ($chave == "sábado") {
+    if ($chave != "domingo" && $chave != "sábado") {
+      echo "$chave <br>";
     }
 }
 ?>
